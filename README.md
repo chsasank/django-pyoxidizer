@@ -20,7 +20,7 @@ $ pyoxidizer build
 Run your app from build. The path below might change based on platform
 
 ```
-$ ./build/x86_64-unknown-linux-gnu/debug/install/myapp runserver
+$ ./build/x86_64-unknown-linux-gnu/debug/install/pyapp runserver
 ```
 
 Now you should be able to open localhost:8000 and see django server running.
