@@ -1,7 +1,7 @@
 import os
 import sys
 import django
-from django.core.management import call_command
+from django.core.management import execute_from_command_line
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__)))
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'foo.settings')
@@ -16,5 +16,6 @@ try:
 except ValueError: 
     pass
 
+args = ['dcmio'] + args
 print('calling', args)
-call_command(*args)
+execute_from_command_line(args)

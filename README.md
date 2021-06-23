@@ -11,10 +11,16 @@ Install pyoxidizer:
 $ python3 -m pip install pyoxidizer
 ```
 
-Run your app 
+build your app 
 
 ```
-$ pyoxidizer run runserver
+$ pyoxidizer build
+```
+
+Run your app from build. The path below might change based on platform
+
+```
+$ ./build/x86_64-unknown-linux-gnu/debug/install/myapp runserver
 ```
 
 Now you should be able to open localhost:8000 and see django server running.
