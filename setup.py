@@ -12,7 +12,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 version = open('VERSION').read().strip()
 
 setup(
-    name='whatever',
+    name='src',
     version=version,
     description='qure mini pacs to index dicoms',
     long_description=long_description,

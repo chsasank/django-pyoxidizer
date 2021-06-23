@@ -180,7 +180,7 @@ def make_exe(dist):
     # python_config.run_command = "<code>"
 
     # Run a Python module as __main__ when the interpreter starts.
-    python_config.run_module = "whatever"
+    python_config.run_module = "src"
 
     # Run a Python file when the interpreter starts.
     # python_config.run_filename = "/path/to/file"
