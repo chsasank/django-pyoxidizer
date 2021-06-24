@@ -1,0 +1,10 @@
+#directories
+bower_components
+node_modules
+dist
+out
+extraResources
+
+#files
+*.tgz
+*.log

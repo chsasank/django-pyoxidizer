@@ -24,3 +24,14 @@ $ ./build/x86_64-unknown-linux-gnu/debug/install/pyapp runserver
 ```
 
 Now you should be able to open localhost:8000 and see django server running.
+
+
+## Build Electron
+
+```
+$ cp -r build electron/extraResources
+$ cd electron
+$ npm run make
+```
+
+You'll have our installers in `electron/out/`.
