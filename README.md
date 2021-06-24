@@ -35,3 +35,7 @@ $ npm run make
 ```
 
 You'll have our installers in `electron/out/`.
+
+Open the installed file and see this!
+
+![image](https://user-images.githubusercontent.com/9305875/123249068-3b84a180-d506-11eb-87a4-ae9a2b7d391d.png)
